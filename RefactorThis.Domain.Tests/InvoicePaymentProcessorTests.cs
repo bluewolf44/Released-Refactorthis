@@ -40,8 +40,9 @@ namespace RefactorThis.Domain.Tests
 			{
 				Amount = 0,
 				AmountPaid = 0,
-				Payments = null
-			};
+				Payments = new List<Payment> { }
+
+            };
 
 			repo.Add( invoice );
 
